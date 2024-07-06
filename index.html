@@ -10,29 +10,62 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>CV</title>
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="style.css">
-            <img src="./mine.jpg" alt="my photo" width="20" height="40">
-            <div id="menu">
-                <nav class="nav">
-                    <ul>
-                        <li><a href="Contacts">Contacts</li>
-                        <li><a href="Skills">Skills</li>
-                        <li><a href="Education">Education</li>
-                        <li><a href="About me">About me</li>
-                        <li><a href="Code">Code</li>
-                        <li><a href="English">English</li>
-                    </ul>
-                </nav>
+        <header class="header">
+            <div class="container">
+                <div class="navigator">
+                    <nav class="nav">
+                        <ul class="nav_list">
+                            <li class="navlink"><a href="#About me">About me</li>
+                            <li class="navlink"><a href="#Contacts">Contacts</li>
+                            <li class="navlink"><a href="#Skills">Skills</li>
+                            <li class="navlink"><a href="#Code">Code</li>
+                            <li class="navlink"><a href="#English">English</li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
-        <main></main>
-        <footer></footer>
+        <main class="header">
+            <div class="container">
+                <div class="img">
+                    <img src="./mine.jpg" alt="my photo" width="220" height="400">
+                </div>
+                <div class="sections">
+                    <section class="section" id="About me">
+                        <h1 class="section-title">Zinoveva Anastasiya</h1>
+                        <div class="img_profile"></div>
+                        <div class="text">My name is Anastasia. I am an architect by education.I have worked as an architect and designer for several years. BUT one day I accidentally found out about the IT field, or rather about web development. And I decided to try myself in a new field of activity. Since in the process of self-study I realized that I want to be realized as a frontend developer. since this kind of activity is very interesting.</div>
+                    </section>
+                    <section class="section" id="Contacts">
+                        <h2 class="section-title1">Contacts</h2>
+                        <p>Location:Turkey, Antalya</p>
+                        <p>Phone:+90 507 646 23 88</p>
+                        <p>Email:nastyazistasy@gmail.com</p>
+                        <p>Github:anastasiya-94</p>
+                    </section>
+                    <section class="section" id="Skills">
+                        <h2 class="section-title1">Skills</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript(Basic)</li>
+                            <li>Git</li>
+                        </ul>
+                    </section>
+                    <section class="section" id="Code">
+                        <h2 class="section-title1">Code</h2>
+                        <code class="code">
+                        </code>
+                    </section>
+                    <section class="section" id="English">
+                        <h2>English</h2>
+                        <p>A2</p>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container"></div>
+        </footer>
     </body>
     
