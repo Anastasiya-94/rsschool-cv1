@@ -1,14 +1,21 @@
 body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+
+
 a {
-    color: white
+    color: white;
+    text-decoration:aquamarine;
+    transition: color 0.5s;
 }
+
 h2 {
     color: black;
-    color: antiquewhite;
 }
 html {
     scroll-behavior: smooth;
@@ -46,9 +53,28 @@ html {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    text-decoration: none;
   }
 
   .img {
     display: flex;
     justify-content: center;
+    background-color: grey;
+    
   }
+  .link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+  }
+  
+  .link:hover {
+    color: #5d7260;
+  }
+  .text {
+    width: 600px;
+  }
+.codes {
+    display: flex;
+    align-items: center;
+}
