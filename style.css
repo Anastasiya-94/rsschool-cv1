@@ -92,4 +92,15 @@ html {
 }
 .container-footer {
     display: flex;
+    align-items: center;
+}
+.footer-link {
+    padding-right: 40px;
+}
+.footer-link-icon{
+padding-right: 40px;
+}
+
+.footer-link-year {
+    padding-left: 80px;
 }
