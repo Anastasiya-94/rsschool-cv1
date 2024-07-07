@@ -16,6 +16,7 @@ a {
 
 h2 {
     color: black;
+    text-decoration: overline;
 }
 html {
     scroll-behavior: smooth;
@@ -62,6 +63,9 @@ html {
     background-color: grey;
     
   }
+  img {
+    border: 5px solid white;
+  }
   .link {
     text-decoration: none;
     color: #829985;
@@ -73,8 +77,14 @@ html {
   }
   .text {
     width: 600px;
+    text-align: center;
   }
 .codes {
     display: flex;
     align-items: center;
+    margin-right: 300px;
+    text-align: center;
+}
+.footer {
+    background-color: rgba(133, 133, 130, 0.664);
 }
