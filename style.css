@@ -87,4 +87,9 @@ html {
 }
 .footer {
     background-color: rgba(133, 133, 130, 0.664);
+    display: flex;
+    flex-direction: column;
+}
+.container-footer {
+    display: flex;
 }
